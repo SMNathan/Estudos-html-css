@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p><strong>Diminua e aumente</strong> o tamanho da janela do Navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem dinâmica">
+    </picture>
+
+    <h1>Reproduzindo Audios</h1>
+    <p>básico da reprodução de áudio HTML5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="">
+    </audio>
+</body>
+</html>
