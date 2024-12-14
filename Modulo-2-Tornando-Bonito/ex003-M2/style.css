@@ -1,0 +1,9 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+
+}
+
+h1 {
+    font: italic bolder 3em "Times New Roman", serif;
+}
